@@ -1,0 +1,20 @@
+# Default bicycle model configuration
+# All measurements in SI units (meters, seconds, radians)
+
+# Wheelbase distance (distance from front to rear axle)
+L: 2.0
+
+# Distance from rear axle to center of mass
+lr: 1.2
+
+# Maximum steering rate (radians per second)
+w_max: 1.22
+
+# Simulation sampling time (seconds)
+sample_time: 0.01
+
+# Initial conditions
+initial_x: 0.0
+initial_y: 0.0
+initial_theta: 0.0
+initial_delta: 0.0
