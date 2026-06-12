@@ -1,0 +1,10 @@
+{
+  "L": 2.0,
+  "lr": 1.2,
+  "w_max": 1.22,
+  "sample_time": 0.01,
+  "initial_x": 0.0,
+  "initial_y": 0.0,
+  "initial_theta": 0.0,
+  "initial_delta": 0.0
+}
