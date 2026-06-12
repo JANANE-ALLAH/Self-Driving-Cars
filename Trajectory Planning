@@ -1,0 +1,16 @@
+from src.bicycle_model import BicycleModel
+import matplotlib.pyplot as plt
+
+model = BicycleModel(config)
+
+# Generate circular trajectory
+t, x, y, w = model.circular_path(
+    radius=5.0,      # 5 meter radius
+    velocity=2.0,    # 2 m/s
+    duration=15.0    # 15 seconds
+)
+
+# Plot results
+plt.plot(x, y)
+plt.axis('equal')
+plt.show()
