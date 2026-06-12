@@ -1,0 +1,19 @@
+Self-Driving-Cars/
+├── src/
+│   ├── __init__.py
+│   ├── bicycle_model.py      # Core model classes
+│   ├── config.py              # Configuration management
+│   └── utils.py               # Utility functions
+├── tests/
+│   ├── __init__.py
+│   └── test_bicycle.py        # Unit tests
+├── examples/
+│   └── example_usage.py        # Usage examples
+├── config/
+│   ├── default_config.yaml    # Default YAML config
+│   └── default_config.json    # Default JSON config
+├── output/                     # Generated files (created at runtime)
+├── README.md                   # This file
+├── requirements.txt            # Python dependencies
+├── setup.py                    # Installation script
+└── LICENSE                     # MIT License
