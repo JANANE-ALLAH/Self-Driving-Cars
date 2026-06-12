@@ -1,0 +1,16 @@
+from src import utils
+import numpy as np
+
+# Save trajectory data
+utils.save_trajectory_data(
+    t_data, x_data, y_data, v_data, w_data,
+    'trajectory.txt'
+)
+
+# Plot with analysis
+utils.plot_trajectory(x_data, y_data, label='My Trajectory')
+utils.plot_control_inputs(t_data, v_data, w_data)
+
+# Calculate metrics
+path_length = utils.calculate_path_length(x_data, y_data)
+print(f"Total path length: {path_length:.2f} meters")
