@@ -1,0 +1,5 @@
+ẋ = v·cos(θ + β)
+ẏ = v·sin(θ + β)
+θ̇ = (v/L)·cos(β)·tan(δ)
+δ̇ = ω
+β = arctan(lr·tan(δ)/L)
