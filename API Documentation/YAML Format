@@ -1,0 +1,11 @@
+# Bicycle model parameters
+L: 2.0           # Wheelbase (meters)
+lr: 1.2          # Distance to CM (meters)
+w_max: 1.22      # Max steering rate (rad/s)
+sample_time: 0.01 # Sampling time (seconds)
+
+# Initial conditions
+initial_x: 0.0
+initial_y: 0.0
+initial_theta: 0.0
+initial_delta: 0.0
