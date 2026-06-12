@@ -1,0 +1,15 @@
+Bicycle(config: BicycleConfig = None)
+
+# Trajectory data
+save_trajectory_data(t_data, x_data, y_data, v_data, w_data, path)
+load_trajectory_data(path) -> (t, x, y, v, w)
+
+# Plotting
+plot_trajectory(x_data, y_data, label, show, save_path)
+plot_comparison(x1, y1, x2, y2, label1, label2, show, save_path)
+plot_control_inputs(t_data, v_data, w_data, show, save_path)
+
+# Analysis
+calculate_path_length(x_data, y_data) -> float
+calculate_max_curvature(theta_data, dt) -> float
+
